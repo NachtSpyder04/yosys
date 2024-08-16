@@ -371,6 +371,12 @@ endmodule
 
 // --------------------------------------------------------
 
+//  |---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|
+//-
+//-     $shl (A, B, Y)
+//-
+//- A shift-left operation. This corresponds to the Verilog '<<' operator.
+//-
 module \$shl (A, B, Y);
 
 parameter A_SIGNED = 0;
@@ -395,6 +401,12 @@ endmodule
 
 // --------------------------------------------------------
 
+//  |---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|
+//-
+//-     $shr (A, B, Y)
+//-
+//- A shift-right operation. This corresponds to the Verilog '>>' operator.
+//-
 module \$shr (A, B, Y);
 
 parameter A_SIGNED = 0;
